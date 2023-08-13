@@ -219,7 +219,7 @@ body {
    Modify as content requires.
    ========================================================================== */
 
-@media
+
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
