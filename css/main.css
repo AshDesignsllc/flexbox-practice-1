@@ -111,14 +111,32 @@ body {
   background-color: #0fa3b1 !important;
 }
 
-.wrapper {
+header, footer {
+    background-color: #000;
+    height: 80px;
+    width: 100%;
+}
+
+main {
+    background-color: #0fa3b1;
+    height: 250px;
+    width: 100%;
+}
+
+header, footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.div-1, .div-2, .div-3 {
+.flex-items {
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -131,9 +149,9 @@ body {
 
 }
 
-.div-1, .div-2 {
+#div-1, #div-2 {
     border-right: 0.5px solid #fff;
-    padding: 0 10px;
+    padding: 0 8px;
     
 }
 
